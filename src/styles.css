@@ -1,0 +1,54 @@
+body {
+  background-color: yellow;
+}
+
+.App {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.card {
+  background-color: rgb(10, 25, 68);
+  color: white;
+  border: 7px solid rgb(116, 170, 184);
+  border-radius: 15px;
+  width: 18vw;
+  height: 16vw;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  cursor: pointer;
+  user-select: none;
+}
+
+.card-letter {
+  font-size: 7vw;
+  margin-top: 3px;
+}
+.card-name {
+  margin-top: 3px;
+  font-size: 2vw;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
