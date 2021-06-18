@@ -21,6 +21,10 @@ h3 {
   color: white;
 }
 
+.start {
+  color: rgb(43, 165, 43);
+}
+
 .card {
   background-color: rgb(10, 25, 68);
   color: white;

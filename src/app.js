@@ -4,7 +4,7 @@ import "./styles.css"
 
 function App() {
   const [titles, setTitles] = useState([['Alpha', 'α'], ['Beta', 'β'], ['Gamma', 'γ'], ['Delta', 'δ'],
-                                        ['Epsilon', 'ε'], ['Zeta', 'ζ'],  ['Eta', 'η'], ['Theta', 'θ'],]);
+                                        ['Epsilon', 'ε'], ['Zeta', 'ζ'],  ['Eta', 'η'], ['Theta', 'θ']]);
   const [scoreArray, setScoreArray] = useState([]);
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
@@ -54,6 +54,7 @@ function App() {
     <div className="App">
       <header className="header">Memory Card Game</header>
       <h3>Get points by clicking on a different card that you haven't clicked before !!</h3>
+      {score === 0 ? <h2 className="start">Start the Game</h2> : <></>}
       <h4>Score: {score}</h4>
       <h4>BestScore: {bestScore}</h4>
       <div className="content-container">
